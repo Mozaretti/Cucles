@@ -80,8 +80,15 @@ public class Main {
             total = total + salary;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
+        System.out.println();
     }
     public static void task10(){
         System.out.println("Задача 10");
+        int number = 2;
+        int total = 0;
+        for (int i = 1; i < 11; i = i + 1){
+            total = total + number;
+            System.out.println(number +" * " + i + " = " + total);
+        }
     }
 }
